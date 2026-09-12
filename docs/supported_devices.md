@@ -510,6 +510,7 @@
 | X60 Master                                               | dreame.vacuum.r5189u |
 | X60 Master                                               | dreame.vacuum.r5189j |
 | X60 Master                                               | dreame.vacuum.r5104h |
+| X60 Master                                               | dreame.vacuum.r6101h |
 | X60 Master (Ultimate edition)                            | dreame.vacuum.r501w  |
 | X60 Master (Ultimate Ultra-Thin embedded)                | dreame.vacuum.r512g  |
 | X60 Pro (Roller Drainage)                                | dreame.vacuum.r520c  |
