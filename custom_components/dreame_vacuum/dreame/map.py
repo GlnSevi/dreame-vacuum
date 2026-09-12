@@ -8970,14 +8970,14 @@ class DreameVacuumMapRenderer:
                 2
                 if self._low_resolution
                 else (
-                    4
+                    6
                     if (map_data.saved_map_status == 2 or map_data.restored_map)
                     and not map_data.recovery_map
                     and not map_data.history_map
-                    else 2 if (map_data.wifi_map or map_data.history_map) and self._cache else 3
+                    else 2 if (map_data.wifi_map or map_data.history_map) and self._cache else 4
                 )
             )
-            object_scale = 2
+            object_scale = 3
 
             render_material = False
             render_carpet = bool(
