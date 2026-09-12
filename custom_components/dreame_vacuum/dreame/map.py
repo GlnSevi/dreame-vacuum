@@ -4344,10 +4344,20 @@ class DreameVacuumMapDecoder:
                     and not map_data.clean_log
                 )
 
-                if (data_json.get("nc") and data_json["nc"]) or map_data.charger_position.a == 32767:
+                if (
+                    (data_json.get("nc") and data_json["nc"])
+                    or map_data.charger_position.a == 32767
+                    or map_data.charger_position.x == 32767
+                    or map_data.charger_position.y == 32767
+                ):
                     map_data.charger_position = None
 
-                if (data_json.get("nr") and data_json["nr"]) or map_data.robot_position.a == 32767:
+                if (
+                    (data_json.get("nr") and data_json["nr"])
+                    or map_data.robot_position.a == 32767
+                    or map_data.robot_position.x == 32767
+                    or map_data.robot_position.y == 32767
+                ):
                     map_data.robot_position = None
 
                 if not map_data.saved_map and not map_data.recovery_map:
